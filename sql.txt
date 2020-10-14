@@ -1,0 +1,16 @@
+i think there's no enough time to learn and finished my task about Postgresql. because i'm used to work wirh mysql. so here's what i thought
+
+1. SELECT * FROM tbl_item;
+2. SELECT * FROM tbl_item WHERE id_item = id OR name = name;
+3. SELECT * FROM tbl_item WHERE id_item = id;
+4. $id = $_POST(id)
+   $array[] = SELECT id_item FROM tbl_item;
+   foreach ($array as $item) {
+   	if($id == $item) {
+   		echo "<script type='text/javascript'>alert("Data that you filled already exist");</script>";
+   	} else {
+   		INSERT INTO tbl_item (id_item, name, description) VALUES (123123123123, "pan", "pan from indonesia");
+   	}
+   }
+5. UPDATE tbl_item SET id_item = id, name = name, description = description WHERE id_item = id;
+6. DELETE FROM tbl_item WHERE id_item = id;
